@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+      PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.today.delivery.dao.TodayDAO">
+	
+	<select id="getOutput" resultType="TodayDTO">
+		SELECT output
+		FROM test
+		WHERE input='9999'
+	</select>
+	
+</mapper>
